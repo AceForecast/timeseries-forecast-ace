@@ -7,7 +7,7 @@ branches:
   - travis
 script:
   - mvn clean verify
-  -ls
+  - ls
   - mvn deploy --settings target/travis/settings.xml
 env:
   global:
