@@ -2,7 +2,7 @@
 
 This is a Java open source library which provides a time series forecasting functionality. It is an implementation of the [Hannan-Rissanen algorithm](http://www.jstor.org/stable/2241884?seq=1#page_scan_tab_contents "Paper") for additive [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average "Wiki") models. This library is published by the Workday's Syman team, and is used to support basic timeseries forecasting functionalities in some of the Workday products.
 
-[![Build Status](https://travis-ci.org/Workday/timeseries-forecast.svg?branch=master)](https://travis-ci.org/Workday/timeseries-forecast)
+[![Build Status](https://travis-ci.org/AceForecast/timeseries-forecast.svg?branch=master)](https://travis-ci.org/AceForecast/timeseries-forecast)
 
 How to Use
 ---
