@@ -1,0 +1,10 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+branchse:
+  except:
+    - travis
+
+script: mvn clean verify
