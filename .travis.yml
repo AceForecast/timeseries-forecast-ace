@@ -1,7 +1,11 @@
 language: java
 jdk:
 - oraclejdk8
-before_install: "git clone -b travis `git config --get remote.origin.url` target/travis"
+before_install:
+  - "git clone -b travis `git config --get remote.origin.url` target/travis"
+  - ls
+  - cd target
+  - ls
 branches:
   except:
   - travis
